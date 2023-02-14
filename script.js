@@ -15,3 +15,13 @@ for(let i = 0; i <items.length; i++) {
         items[i].style.backgroundColor="lightgray";
     }
 }
+console.log(document.getElementsByTagName("h2"));
+console.log(document.querySelector("#elso a"));
+let elsoLink=document.querySelector("#elso p");
+ elsoLink.style.color="red";
+
+ console.log(document.querySelectorAll(".item"));
+
+ let list=document.querySelectorAll(".item");
+
+ list[1].style.backgroundColor="green";
